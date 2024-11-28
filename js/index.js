@@ -17,6 +17,7 @@ function renderTask(){
 
         // Tast TEXT
         const text=document.createElement("span");
+        text.className="text-light";
         text.textContent=task;
 
         // Actions
